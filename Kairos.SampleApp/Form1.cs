@@ -23,6 +23,8 @@ namespace SampleApp
         private void button1_Click(object sender, EventArgs e)
         {
 
+           
+
             KairosClient c = new KairosClient("your_app_id", "your_app_key");
             string s = c.recognize("http://www.link.to/your/image.jpg", "gallery1",null,null,null,"10");
 
